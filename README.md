@@ -4,7 +4,7 @@
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
 A helper project to integrate [aichat](https://github.com/sigoden/aichat)
-into [Buildroot](https://buildroot.org/). The patches submitted to the Buildroot team can be found here
+into [Buildroot](https://buildroot.org/). The patches submitted to the Buildroot team can be found
 [here](https://patchwork.ozlabs.org/project/buildroot/list/?series=&submitter=&state=&q=aichat&archive=&delegate=)
 
 # Status
