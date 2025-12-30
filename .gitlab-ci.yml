@@ -1,6 +1,7 @@
 stages:
-  - check
+  - check-package
   - build-images
+  - build-package
 
 .build-image:
   stage: build-images
@@ -24,7 +25,7 @@ stages:
     - docker
 
 check-package:
-  stage: check
+  stage: check-package
   image: alexshcdr/uutils-coreutils-check-package
   variables:
     GIT_SUBMODULE_STRATEGY: normal
